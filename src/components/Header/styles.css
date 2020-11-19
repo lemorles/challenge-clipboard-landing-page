@@ -1,0 +1,46 @@
+header {
+  background: url("../../images/bg-header-mobile.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  grid-column: 1 / 13;
+  padding: 100px 25px;
+}
+
+.hero__logo {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    background: url("../../images/bg-header-desktop.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .hero {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .hero__wrapper-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__logo {
+    width: 18%;
+    margin-bottom: 40px;
+  }
+
+  .hero__wrapper-button a:nth-child(1) {
+    margin-right: 20px;
+  }
+}

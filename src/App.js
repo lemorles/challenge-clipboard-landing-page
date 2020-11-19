@@ -1,9 +1,9 @@
+import Header from './components/Header'
 function App() {
   return (
     <>
-      A history of everything you copy Clipboard allows you to track and
-      organize everything you copy. Instantly access your clipboard on all your
-      devices. Download for iOS Download for Mac Keep track of your snippets
+    <Header />
+          {/* Keep track of your snippets
       Clipboard instantly stores any item you copy in the cloud, meaning you can
       access your snippets immediately on all your devices. Our Mac and iOS apps
       will help you organize everything. Quick Search Easily search your
@@ -20,7 +20,7 @@ function App() {
       easy access. Clipboard for iOS and Mac OS Available for free on the App
       Store. Download for Mac or iOS, sync with iCloud and you’re ready to start
       adding to your clipboard. Download for iOS Download for Mac FAQs Contact
-      Us Privacy Policy Press Kit Install Guide
+      Us Privacy Policy Press Kit Install Guide */}
     </>
   );
 }
