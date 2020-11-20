@@ -1,0 +1,10 @@
+@media screen and (min-width: 1200px) {
+  h3,
+  li .description {
+    text-align: left;
+  }
+
+  .description {
+    margin: 0 0 50px;
+  }
+}

@@ -1,16 +1,12 @@
-import Header from './components/Header'
+import Header from "./components/Header";
+import SnippetList from "./components/SnippetList";
 function App() {
   return (
     <>
-    <Header />
-          {/* Keep track of your snippets
-      Clipboard instantly stores any item you copy in the cloud, meaning you can
-      access your snippets immediately on all your devices. Our Mac and iOS apps
-      will help you organize everything. Quick Search Easily search your
-      snippets by content, category, web address, application, and more. iCloud
-      Sync Instantly saves and syncs snippets across all your devices. Complete
-      History Retrieve any snippets from the first moment you started using the
-      app. Access Clipboard anywhere Whether you’re on the go, or at your
+      <Header />
+      <SnippetList />
+      {/* 
+             Access Clipboard anywhere Whether you’re on the go, or at your
       computer, you can access all your Clipboard snippets in a few simple
       clicks. Supercharge your workflow We’ve got the tools to boost your
       productivity. Create blacklists Ensure sensitive information never makes
