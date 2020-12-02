@@ -1,14 +1,15 @@
 import Header from "./components/Header";
 import SnippetList from "./components/SnippetList";
+import Clipboard from "./components/Clipboard";
+
 function App() {
   return (
     <>
       <Header />
       <SnippetList />
+      <Clipboard />
       {/* 
-             Access Clipboard anywhere Whether you’re on the go, or at your
-      computer, you can access all your Clipboard snippets in a few simple
-      clicks. Supercharge your workflow We’ve got the tools to boost your
+              . Supercharge your workflow We’ve got the tools to boost your
       productivity. Create blacklists Ensure sensitive information never makes
       its way to your clipboard by excluding certain sources. Plain text
       snippets Remove unwanted formatting from copied text for a consistent
